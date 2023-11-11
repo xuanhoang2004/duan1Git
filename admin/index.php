@@ -2,7 +2,7 @@
  include "header.php";
  include "../model/pdo.php";
  include "../model/danhmuc.php";
-echo "xin chaof";
+
  //controller
 if(isset($_GET['act'])){
     $act=$_GET['act'];
